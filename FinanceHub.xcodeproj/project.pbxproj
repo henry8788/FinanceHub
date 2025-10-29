@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA6A0FD92965D4CB00C3AA10 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A0FD82965D4CB00C3AA10 /* NibOwnerLoadable.swift */; };
+		EA6A0FDD2965D5BB00C3AA10 /* MyAccountTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FDC2965D5BB00C3AA10 /* MyAccountTopView.xib */; };
+		EA6A0FDF2965D60000C3AA10 /* MyAccountTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A0FDE2965D60000C3AA10 /* MyAccountTopView.swift */; };
+		EA6A0FE42965D9A200C3AA10 /* avatar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FE32965D9A200C3AA10 /* avatar@3x.png */; };
+		EA6A0FE62965D9D100C3AA10 /* iconBell01Nomal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FE52965D9D100C3AA10 /* iconBell01Nomal@3x.png */; };
+		EA6A0FE92965DD6F00C3AA10 /* AccountBalanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FE82965DD6E00C3AA10 /* AccountBalanceView.xib */; };
+		EA6A0FEB2965DDC200C3AA10 /* AccountBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A0FEA2965DDC200C3AA10 /* AccountBalanceView.swift */; };
+		EA6A0FED2965E16100C3AA10 /* iconEye01On@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FEC2965E16100C3AA10 /* iconEye01On@3x.png */; };
+		EA6A0FEF2965E59900C3AA10 /* button00ElementMenuTransfer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FEE2965E59900C3AA10 /* button00ElementMenuTransfer@3x.png */; };
+		EA6A0FF12965E5AF00C3AA10 /* button00ElementMenuPayment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FF02965E5AF00C3AA10 /* button00ElementMenuPayment@3x.png */; };
+		EA6A0FF32965E5C400C3AA10 /* button00ElementMenuUtility@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FF22965E5C400C3AA10 /* button00ElementMenuUtility@3x.png */; };
+		EA6A0FF52965E5DB00C3AA10 /* button01Scan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FF42965E5DA00C3AA10 /* button01Scan@3x.png */; };
+		EA6A0FF72965E61A00C3AA10 /* button00ElementMenuQRcode@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FF62965E61A00C3AA10 /* button00ElementMenuQRcode@3x.png */; };
+		EA6A0FF92965E62C00C3AA10 /* button00ElementMenuTopUp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FF82965E62C00C3AA10 /* button00ElementMenuTopUp@3x.png */; };
+		EA6A0FFB2965E6C100C3AA10 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A0FFA2965E6C100C3AA10 /* PaymentMethodView.swift */; };
+		EA6A0FFD2965E6E400C3AA10 /* PaymentMethodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FFC2965E6E400C3AA10 /* PaymentMethodView.xib */; };
+		EA6A10002965E7F300C3AA10 /* PaymentMethodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A0FFE2965E7F300C3AA10 /* PaymentMethodCollectionViewCell.swift */; };
+		EA6A10012965E7F300C3AA10 /* PaymentMethodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A0FFF2965E7F300C3AA10 /* PaymentMethodCollectionViewCell.xib */; };
+		EA6A10052965E8C000C3AA10 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10042965E8C000C3AA10 /* PaymentMethod.swift */; };
+		EA6A10072965F63800C3AA10 /* MyFavoriteTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10062965F63800C3AA10 /* MyFavoriteTitleView.swift */; };
+		EA6A10092965F66400C3AA10 /* MyFavoriteTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10082965F66400C3AA10 /* MyFavoriteTitleView.xib */; };
+		EA6A100B2965F76600C3AA10 /* iconArrow01Next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A100A2965F76600C3AA10 /* iconArrow01Next@3x.png */; };
+		EA6A100D2965FACB00C3AA10 /* FavoriteEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A100C2965FACB00C3AA10 /* FavoriteEmptyView.swift */; };
+		EA6A100F2965FAE500C3AA10 /* FavoriteEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A100E2965FAE500C3AA10 /* FavoriteEmptyView.xib */; };
+		EA6A10112965FBAC00C3AA10 /* button00ElementScrollEmpty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10102965FBAC00C3AA10 /* button00ElementScrollEmpty@3x.png */; };
+		EA6A101A2966FB7400C3AA10 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10142966FB7200C3AA10 /* BannerCollectionViewCell.xib */; };
+		EA6A101B2966FB7400C3AA10 /* BannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10152966FB7300C3AA10 /* BannerView.xib */; };
+		EA6A101C2966FB7400C3AA10 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10162966FB7300C3AA10 /* BottomView.xib */; };
+		EA6A101D2966FB7400C3AA10 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10172966FB7300C3AA10 /* BottomView.swift */; };
+		EA6A101E2966FB7400C3AA10 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10182966FB7300C3AA10 /* BannerView.swift */; };
+		EA6A101F2966FB7400C3AA10 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10192966FB7300C3AA10 /* BannerCollectionViewCell.swift */; };
+		EA6A10252966FBFD00C3AA10 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10242966FBFD00C3AA10 /* GradientView.swift */; };
+		EA6A10302966FDCF00C3AA10 /* PanelChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10282966FDCF00C3AA10 /* PanelChildViewController.xib */; };
+		EA6A10342966FDCF00C3AA10 /* PanelChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A102C2966FDCF00C3AA10 /* PanelChildViewController.swift */; };
+		EA6A103B2966FE0400C3AA10 /* icTabbarLocationActive@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10382966FE0400C3AA10 /* icTabbarLocationActive@3x.png */; };
+		EA6A103C2966FE0400C3AA10 /* icTabbarHomeActive@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A10392966FE0400C3AA10 /* icTabbarHomeActive@3x.png */; };
+		EA6A103D2966FE0400C3AA10 /* icTabbarAccountDefault@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6A103A2966FE0400C3AA10 /* icTabbarAccountDefault@3x.png */; };
+		EA6A103F2967026500C3AA10 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A103E2967026500C3AA10 /* Style.swift */; };
+		EA6F208D29672B75003AA37E /* APIInfo .swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F208C29672B75003AA37E /* APIInfo .swift */; };
+		EA6F208F29672E34003AA37E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F208E29672E34003AA37E /* APIManager.swift */; };
+		EA6F209329673058003AA37E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F209229673058003AA37E /* Response.swift */; };
+		EA6F209629673138003AA37E /* MyAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F209529673138003AA37E /* MyAccountViewModel.swift */; };
+		EA6F209829673183003AA37E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F209729673183003AA37E /* BaseViewModel.swift */; };
+		EA6F209C29687013003AA37E /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F209B29687012003AA37E /* Notification.swift */; };
+		EA6F209E296871F2003AA37E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F209D296871F2003AA37E /* Account.swift */; };
+		EA6F20A029687371003AA37E /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F209F29687371003AA37E /* Favorite.swift */; };
+		EA6F20A229688280003AA37E /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F20A129688280003AA37E /* Banner.swift */; };
+		EA6F20A429688EB9003AA37E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F20A329688EB9003AA37E /* BaseViewController.swift */; };
+		EA6F20A8296891EF003AA37E /* iconBell02Active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6F20A7296891EF003AA37E /* iconBell02Active@3x.png */; };
+		EA6F20AC296896D6003AA37E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F20AA296896D6003AA37E /* NotificationViewController.swift */; };
+		EA6F20AD296896D6003AA37E /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6F20AB296896D6003AA37E /* NotificationViewController.xib */; };
+		EA6F20B129689F01003AA37E /* iconArrowWTailBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6F20B029689F00003AA37E /* iconArrowWTailBack@3x.png */; };
+		EA6F20B52968A145003AA37E /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F20B32968A145003AA37E /* NotificationTableViewCell.swift */; };
+		EA6F20B62968A145003AA37E /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6F20B42968A145003AA37E /* NotificationTableViewCell.xib */; };
+		EA6F20B82968A612003AA37E /* NotificationTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F20B72968A612003AA37E /* NotificationTableViewDataSource.swift */; };
+		EA839F8129691A170002666B /* iconEye02Off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA839F8029691A170002666B /* iconEye02Off@3x.png */; };
+		EA839F8329696BBA0002666B /* Extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA839F8229696BBA0002666B /* Extension_String.swift */; };
+		EA839F85296986230002666B /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA839F84296986230002666B /* ImageManager.swift */; };
+		EA839F872969C1F40002666B /* BannerEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA839F862969C1F40002666B /* BannerEmptyView.swift */; };
+		EA839F892969C2360002666B /* BannerEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA839F882969C2360002666B /* BannerEmptyView.xib */; };
+		EA839F8F2969CB2C0002666B /* icTabbarServic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA839F8E2969CB2C0002666B /* icTabbarServic@3x.png */; };
+		EA839F912969CB980002666B /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA839F902969CB980002666B /* FavoriteView.swift */; };
+		EA839F932969CBB80002666B /* FavoriteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA839F922969CBB80002666B /* FavoriteView.xib */; };
+		EA839F962969E1BB0002666B /* button00ElementScrollMobile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA839F952969E1BB0002666B /* button00ElementScrollMobile@3x.png */; };
+		EA839F982969E1D50002666B /* button00ElementScrollTree@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA839F972969E1D50002666B /* button00ElementScrollTree@3x.png */; };
+		EA839F9A2969E1E70002666B /* button00ElementScrollCreditCard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA839F992969E1E70002666B /* button00ElementScrollCreditCard@3x.png */; };
+		EA839F9C2969E1F90002666B /* button00ElementScrollBuilding@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA839F9B2969E1F90002666B /* button00ElementScrollBuilding@3x.png */; };
+		EA839FA12969E2500002666B /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA839F9F2969E2500002666B /* FavoriteCollectionViewCell.swift */; };
+		EA839FA22969E2500002666B /* FavoriteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA839FA02969E2500002666B /* FavoriteCollectionViewCell.xib */; };
+		EA839FA4296AE1D70002666B /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA839FA3296AE1D70002666B /* ShimmerView.swift */; };
+		EA94BD322965CC7C00BAFD61 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94BD302965CC7C00BAFD61 /* MyAccountViewController.swift */; };
+		EA94BD332965CC7C00BAFD61 /* MyAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA94BD312965CC7C00BAFD61 /* MyAccountViewController.xib */; };
+		EAE797F72965A6FA0014AF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE797F62965A6FA0014AF4D /* AppDelegate.swift */; };
+		EAE797F92965A6FA0014AF4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE797F82965A6FA0014AF4D /* SceneDelegate.swift */; };
+		EAE797FB2965A6FA0014AF4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE797FA2965A6FA0014AF4D /* ViewController.swift */; };
+		EAE797FE2965A6FA0014AF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE797FC2965A6FA0014AF4D /* Main.storyboard */; };
+		EAE798002965A6FC0014AF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE797FF2965A6FC0014AF4D /* Assets.xcassets */; };
+		EAE798032965A6FC0014AF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE798012965A6FC0014AF4D /* LaunchScreen.storyboard */; };
+		EAE7980E2965A6FD0014AF4D /* FinanceHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE7980D2965A6FD0014AF4D /* FinanceHubTests.swift */; };
+		EAE798182965A6FD0014AF4D /* FinanceHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE798172965A6FD0014AF4D /* FinanceHubUITests.swift */; };
+		EAE7981A2965A6FD0014AF4D /* FinanceHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE798192965A6FD0014AF4D /* FinanceHubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAE7980A2965A6FD0014AF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE797EB2965A6FA0014AF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE797F22965A6FA0014AF4D;
+			remoteInfo = FinanceHub;
+		};
+		EAE798142965A6FD0014AF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE797EB2965A6FA0014AF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE797F22965A6FA0014AF4D;
+			remoteInfo = FinanceHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA6A0FD82965D4CB00C3AA10 /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		EA6A0FDC2965D5BB00C3AA10 /* MyAccountTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAccountTopView.xib; sourceTree = "<group>"; };
+		EA6A0FDE2965D60000C3AA10 /* MyAccountTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountTopView.swift; sourceTree = "<group>"; };
+		EA6A0FE32965D9A200C3AA10 /* avatar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@3x.png"; sourceTree = "<group>"; };
+		EA6A0FE52965D9D100C3AA10 /* iconBell01Nomal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBell01Nomal@3x.png"; sourceTree = "<group>"; };
+		EA6A0FE82965DD6E00C3AA10 /* AccountBalanceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountBalanceView.xib; sourceTree = "<group>"; };
+		EA6A0FEA2965DDC200C3AA10 /* AccountBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceView.swift; sourceTree = "<group>"; };
+		EA6A0FEC2965E16100C3AA10 /* iconEye01On@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconEye01On@3x.png"; sourceTree = "<group>"; };
+		EA6A0FEE2965E59900C3AA10 /* button00ElementMenuTransfer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementMenuTransfer@3x.png"; sourceTree = "<group>"; };
+		EA6A0FF02965E5AF00C3AA10 /* button00ElementMenuPayment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementMenuPayment@3x.png"; sourceTree = "<group>"; };
+		EA6A0FF22965E5C400C3AA10 /* button00ElementMenuUtility@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementMenuUtility@3x.png"; sourceTree = "<group>"; };
+		EA6A0FF42965E5DA00C3AA10 /* button01Scan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button01Scan@3x.png"; sourceTree = "<group>"; };
+		EA6A0FF62965E61A00C3AA10 /* button00ElementMenuQRcode@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementMenuQRcode@3x.png"; sourceTree = "<group>"; };
+		EA6A0FF82965E62C00C3AA10 /* button00ElementMenuTopUp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementMenuTopUp@3x.png"; sourceTree = "<group>"; };
+		EA6A0FFA2965E6C100C3AA10 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
+		EA6A0FFC2965E6E400C3AA10 /* PaymentMethodView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMethodView.xib; sourceTree = "<group>"; };
+		EA6A0FFE2965E7F300C3AA10 /* PaymentMethodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA6A0FFF2965E7F300C3AA10 /* PaymentMethodCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMethodCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA6A10042965E8C000C3AA10 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		EA6A10062965F63800C3AA10 /* MyFavoriteTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteTitleView.swift; sourceTree = "<group>"; };
+		EA6A10082965F66400C3AA10 /* MyFavoriteTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFavoriteTitleView.xib; sourceTree = "<group>"; };
+		EA6A100A2965F76600C3AA10 /* iconArrow01Next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconArrow01Next@3x.png"; sourceTree = "<group>"; };
+		EA6A100C2965FACB00C3AA10 /* FavoriteEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEmptyView.swift; sourceTree = "<group>"; };
+		EA6A100E2965FAE500C3AA10 /* FavoriteEmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteEmptyView.xib; sourceTree = "<group>"; };
+		EA6A10102965FBAC00C3AA10 /* button00ElementScrollEmpty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementScrollEmpty@3x.png"; sourceTree = "<group>"; };
+		EA6A10142966FB7200C3AA10 /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA6A10152966FB7300C3AA10 /* BannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerView.xib; sourceTree = "<group>"; };
+		EA6A10162966FB7300C3AA10 /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		EA6A10172966FB7300C3AA10 /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		EA6A10182966FB7300C3AA10 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		EA6A10192966FB7300C3AA10 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA6A10242966FBFD00C3AA10 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		EA6A10282966FDCF00C3AA10 /* PanelChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanelChildViewController.xib; sourceTree = "<group>"; };
+		EA6A102C2966FDCF00C3AA10 /* PanelChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelChildViewController.swift; sourceTree = "<group>"; };
+		EA6A10382966FE0400C3AA10 /* icTabbarLocationActive@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icTabbarLocationActive@3x.png"; sourceTree = "<group>"; };
+		EA6A10392966FE0400C3AA10 /* icTabbarHomeActive@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icTabbarHomeActive@3x.png"; sourceTree = "<group>"; };
+		EA6A103A2966FE0400C3AA10 /* icTabbarAccountDefault@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icTabbarAccountDefault@3x.png"; sourceTree = "<group>"; };
+		EA6A103E2967026500C3AA10 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		EA6F208C29672B75003AA37E /* APIInfo .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIInfo .swift"; sourceTree = "<group>"; };
+		EA6F208E29672E34003AA37E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EA6F209229673058003AA37E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		EA6F209529673138003AA37E /* MyAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewModel.swift; sourceTree = "<group>"; };
+		EA6F209729673183003AA37E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		EA6F209B29687012003AA37E /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		EA6F209D296871F2003AA37E /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		EA6F209F29687371003AA37E /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		EA6F20A129688280003AA37E /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		EA6F20A329688EB9003AA37E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EA6F20A7296891EF003AA37E /* iconBell02Active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBell02Active@3x.png"; sourceTree = "<group>"; };
+		EA6F20AA296896D6003AA37E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		EA6F20AB296896D6003AA37E /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		EA6F20B029689F00003AA37E /* iconArrowWTailBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconArrowWTailBack@3x.png"; sourceTree = "<group>"; };
+		EA6F20B32968A145003AA37E /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		EA6F20B42968A145003AA37E /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		EA6F20B72968A612003AA37E /* NotificationTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewDataSource.swift; sourceTree = "<group>"; };
+		EA839F8029691A170002666B /* iconEye02Off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconEye02Off@3x.png"; sourceTree = "<group>"; };
+		EA839F8229696BBA0002666B /* Extension_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_String.swift; sourceTree = "<group>"; };
+		EA839F84296986230002666B /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		EA839F862969C1F40002666B /* BannerEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerEmptyView.swift; sourceTree = "<group>"; };
+		EA839F882969C2360002666B /* BannerEmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerEmptyView.xib; sourceTree = "<group>"; };
+		EA839F8E2969CB2C0002666B /* icTabbarServic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icTabbarServic@3x.png"; sourceTree = "<group>"; };
+		EA839F902969CB980002666B /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		EA839F922969CBB80002666B /* FavoriteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteView.xib; sourceTree = "<group>"; };
+		EA839F952969E1BB0002666B /* button00ElementScrollMobile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementScrollMobile@3x.png"; sourceTree = "<group>"; };
+		EA839F972969E1D50002666B /* button00ElementScrollTree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementScrollTree@3x.png"; sourceTree = "<group>"; };
+		EA839F992969E1E70002666B /* button00ElementScrollCreditCard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementScrollCreditCard@3x.png"; sourceTree = "<group>"; };
+		EA839F9B2969E1F90002666B /* button00ElementScrollBuilding@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button00ElementScrollBuilding@3x.png"; sourceTree = "<group>"; };
+		EA839F9F2969E2500002666B /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA839FA02969E2500002666B /* FavoriteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA839FA3296AE1D70002666B /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		EA94BD302965CC7C00BAFD61 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		EA94BD312965CC7C00BAFD61 /* MyAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAccountViewController.xib; sourceTree = "<group>"; };
+		EAE797F32965A6FA0014AF4D /* FinanceHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE797F62965A6FA0014AF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAE797F82965A6FA0014AF4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAE797FA2965A6FA0014AF4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAE797FD2965A6FA0014AF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE797FF2965A6FC0014AF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE798022965A6FC0014AF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE798042965A6FC0014AF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE798092965A6FD0014AF4D /* FinanceHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE7980D2965A6FD0014AF4D /* FinanceHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHubTests.swift; sourceTree = "<group>"; };
+		EAE798132965A6FD0014AF4D /* FinanceHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE798172965A6FD0014AF4D /* FinanceHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHubUITests.swift; sourceTree = "<group>"; };
+		EAE798192965A6FD0014AF4D /* FinanceHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE797F02965A6FA0014AF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE798062965A6FD0014AF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE798102965A6FD0014AF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA6A0FD72965D48800C3AA10 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A0FD82965D4CB00C3AA10 /* NibOwnerLoadable.swift */,
+				EA6A10242966FBFD00C3AA10 /* GradientView.swift */,
+				EA839F8229696BBA0002666B /* Extension_String.swift */,
+				EA839FA3296AE1D70002666B /* ShimmerView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EA6A0FDA2965D4FC00C3AA10 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EAE797F82965A6FA0014AF4D /* SceneDelegate.swift */,
+				EAE797F62965A6FA0014AF4D /* AppDelegate.swift */,
+				EA6A103E2967026500C3AA10 /* Style.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EA6A0FDB2965D54500C3AA10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F20B22968A120003AA37E /* Notification */,
+				EA6A0FE72965DD2200C3AA10 /* MyAccount */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA6A0FE02965D8DF00C3AA10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A0FE12965D90400C3AA10 /* images */,
+				EAE797FF2965A6FC0014AF4D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA6A0FE12965D90400C3AA10 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA839F942969E1940002666B /* MyFavorite */,
+				EA6A10372966FE0400C3AA10 /* tabbar */,
+				EA6A0FE22965D91F00C3AA10 /* MyAccount */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EA6A0FE22965D91F00C3AA10 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F20B029689F00003AA37E /* iconArrowWTailBack@3x.png */,
+				EA6A0FE32965D9A200C3AA10 /* avatar@3x.png */,
+				EA6A0FE52965D9D100C3AA10 /* iconBell01Nomal@3x.png */,
+				EA6F20A7296891EF003AA37E /* iconBell02Active@3x.png */,
+				EA6A0FEC2965E16100C3AA10 /* iconEye01On@3x.png */,
+				EA6A0FEE2965E59900C3AA10 /* button00ElementMenuTransfer@3x.png */,
+				EA6A0FF02965E5AF00C3AA10 /* button00ElementMenuPayment@3x.png */,
+				EA6A0FF22965E5C400C3AA10 /* button00ElementMenuUtility@3x.png */,
+				EA6A0FF42965E5DA00C3AA10 /* button01Scan@3x.png */,
+				EA6A0FF62965E61A00C3AA10 /* button00ElementMenuQRcode@3x.png */,
+				EA6A0FF82965E62C00C3AA10 /* button00ElementMenuTopUp@3x.png */,
+				EA6A100A2965F76600C3AA10 /* iconArrow01Next@3x.png */,
+				EA839F8029691A170002666B /* iconEye02Off@3x.png */,
+				EA6A10102965FBAC00C3AA10 /* button00ElementScrollEmpty@3x.png */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		EA6A0FE72965DD2200C3AA10 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A0FDE2965D60000C3AA10 /* MyAccountTopView.swift */,
+				EA6A0FDC2965D5BB00C3AA10 /* MyAccountTopView.xib */,
+				EA6A0FEA2965DDC200C3AA10 /* AccountBalanceView.swift */,
+				EA6A0FE82965DD6E00C3AA10 /* AccountBalanceView.xib */,
+				EA6A0FFA2965E6C100C3AA10 /* PaymentMethodView.swift */,
+				EA6A0FFC2965E6E400C3AA10 /* PaymentMethodView.xib */,
+				EA6A0FFE2965E7F300C3AA10 /* PaymentMethodCollectionViewCell.swift */,
+				EA6A0FFF2965E7F300C3AA10 /* PaymentMethodCollectionViewCell.xib */,
+				EA6A10062965F63800C3AA10 /* MyFavoriteTitleView.swift */,
+				EA6A10082965F66400C3AA10 /* MyFavoriteTitleView.xib */,
+				EA6A100C2965FACB00C3AA10 /* FavoriteEmptyView.swift */,
+				EA6A100E2965FAE500C3AA10 /* FavoriteEmptyView.xib */,
+				EA839F902969CB980002666B /* FavoriteView.swift */,
+				EA839F922969CBB80002666B /* FavoriteView.xib */,
+				EA839F9F2969E2500002666B /* FavoriteCollectionViewCell.swift */,
+				EA839FA02969E2500002666B /* FavoriteCollectionViewCell.xib */,
+				EA6A10192966FB7300C3AA10 /* BannerCollectionViewCell.swift */,
+				EA6A10142966FB7200C3AA10 /* BannerCollectionViewCell.xib */,
+				EA6A10182966FB7300C3AA10 /* BannerView.swift */,
+				EA6A10152966FB7300C3AA10 /* BannerView.xib */,
+				EA6A10172966FB7300C3AA10 /* BottomView.swift */,
+				EA6A10162966FB7300C3AA10 /* BottomView.xib */,
+				EA839F862969C1F40002666B /* BannerEmptyView.swift */,
+				EA839F882969C2360002666B /* BannerEmptyView.xib */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		EA6A10022965E83A00C3AA10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A10032965E86700C3AA10 /* Business */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA6A10032965E86700C3AA10 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F209229673058003AA37E /* Response.swift */,
+				EA6A10042965E8C000C3AA10 /* PaymentMethod.swift */,
+				EA6F209B29687012003AA37E /* Notification.swift */,
+				EA6F209D296871F2003AA37E /* Account.swift */,
+				EA6F209F29687371003AA37E /* Favorite.swift */,
+				EA6F20A129688280003AA37E /* Banner.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		EA6A10262966FDCF00C3AA10 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A102C2966FDCF00C3AA10 /* PanelChildViewController.swift */,
+				EA6A10282966FDCF00C3AA10 /* PanelChildViewController.xib */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		EA6A10372966FE0400C3AA10 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EA839F8E2969CB2C0002666B /* icTabbarServic@3x.png */,
+				EA6A10382966FE0400C3AA10 /* icTabbarLocationActive@3x.png */,
+				EA6A10392966FE0400C3AA10 /* icTabbarHomeActive@3x.png */,
+				EA6A103A2966FE0400C3AA10 /* icTabbarAccountDefault@3x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		EA6F208B29672A9F003AA37E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F208C29672B75003AA37E /* APIInfo .swift */,
+				EA6F208E29672E34003AA37E /* APIManager.swift */,
+				EA839F84296986230002666B /* ImageManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EA6F209429673117003AA37E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F209729673183003AA37E /* BaseViewModel.swift */,
+				EA6F209529673138003AA37E /* MyAccountViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EA6F20A9296896A7003AA37E /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F20AA296896D6003AA37E /* NotificationViewController.swift */,
+				EA6F20AB296896D6003AA37E /* NotificationViewController.xib */,
+				EA6F20B72968A612003AA37E /* NotificationTableViewDataSource.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		EA6F20B22968A120003AA37E /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F20B32968A145003AA37E /* NotificationTableViewCell.swift */,
+				EA6F20B42968A145003AA37E /* NotificationTableViewCell.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		EA839F942969E1940002666B /* MyFavorite */ = {
+			isa = PBXGroup;
+			children = (
+				EA839F9B2969E1F90002666B /* button00ElementScrollBuilding@3x.png */,
+				EA839F952969E1BB0002666B /* button00ElementScrollMobile@3x.png */,
+				EA839F972969E1D50002666B /* button00ElementScrollTree@3x.png */,
+				EA839F992969E1E70002666B /* button00ElementScrollCreditCard@3x.png */,
+			);
+			path = MyFavorite;
+			sourceTree = "<group>";
+		};
+		EA94BD2E2965CC5600BAFD61 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A10262966FDCF00C3AA10 /* Panel */,
+				EA94BD2F2965CC6200BAFD61 /* MyAccount */,
+				EA6F20A9296896A7003AA37E /* Notification */,
+				EA6F20A329688EB9003AA37E /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA94BD2F2965CC6200BAFD61 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				EA94BD302965CC7C00BAFD61 /* MyAccountViewController.swift */,
+				EA94BD312965CC7C00BAFD61 /* MyAccountViewController.xib */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		EAE797EA2965A6FA0014AF4D = {
+			isa = PBXGroup;
+			children = (
+				EAE797F52965A6FA0014AF4D /* FinanceHub */,
+				EAE7980C2965A6FD0014AF4D /* FinanceHubTests */,
+				EAE798162965A6FD0014AF4D /* FinanceHubUITests */,
+				EAE797F42965A6FA0014AF4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE797F42965A6FA0014AF4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE797F32965A6FA0014AF4D /* FinanceHub.app */,
+				EAE798092965A6FD0014AF4D /* FinanceHubTests.xctest */,
+				EAE798132965A6FD0014AF4D /* FinanceHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE797F52965A6FA0014AF4D /* FinanceHub */ = {
+			isa = PBXGroup;
+			children = (
+				EA94BD2E2965CC5600BAFD61 /* ViewControllers */,
+				EA6F209429673117003AA37E /* ViewModels */,
+				EA6A0FDB2965D54500C3AA10 /* Views */,
+				EA6A10022965E83A00C3AA10 /* Models */,
+				EA6F208B29672A9F003AA37E /* Manager */,
+				EA6A0FDA2965D4FC00C3AA10 /* Common */,
+				EA6A0FD72965D48800C3AA10 /* Extensions */,
+				EA6A0FE02965D8DF00C3AA10 /* Resources */,
+				EAE797FA2965A6FA0014AF4D /* ViewController.swift */,
+				EAE797FC2965A6FA0014AF4D /* Main.storyboard */,
+				EAE798012965A6FC0014AF4D /* LaunchScreen.storyboard */,
+				EAE798042965A6FC0014AF4D /* Info.plist */,
+			);
+			path = FinanceHub;
+			sourceTree = "<group>";
+		};
+		EAE7980C2965A6FD0014AF4D /* FinanceHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7980D2965A6FD0014AF4D /* FinanceHubTests.swift */,
+			);
+			path = FinanceHubTests;
+			sourceTree = "<group>";
+		};
+		EAE798162965A6FD0014AF4D /* FinanceHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE798172965A6FD0014AF4D /* FinanceHubUITests.swift */,
+				EAE798192965A6FD0014AF4D /* FinanceHubUITestsLaunchTests.swift */,
+			);
+			path = FinanceHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE797F22965A6FA0014AF4D /* FinanceHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE7981D2965A6FD0014AF4D /* Build configuration list for PBXNativeTarget "FinanceHub" */;
+			buildPhases = (
+				EAE797EF2965A6FA0014AF4D /* Sources */,
+				EAE797F02965A6FA0014AF4D /* Frameworks */,
+				EAE797F12965A6FA0014AF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceHub;
+			productName = FinanceHub;
+			productReference = EAE797F32965A6FA0014AF4D /* FinanceHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE798082965A6FD0014AF4D /* FinanceHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE798202965A6FD0014AF4D /* Build configuration list for PBXNativeTarget "FinanceHubTests" */;
+			buildPhases = (
+				EAE798052965A6FD0014AF4D /* Sources */,
+				EAE798062965A6FD0014AF4D /* Frameworks */,
+				EAE798072965A6FD0014AF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE7980B2965A6FD0014AF4D /* PBXTargetDependency */,
+			);
+			name = FinanceHubTests;
+			productName = FinanceHubTests;
+			productReference = EAE798092965A6FD0014AF4D /* FinanceHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE798122965A6FD0014AF4D /* FinanceHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE798232965A6FD0014AF4D /* Build configuration list for PBXNativeTarget "FinanceHubUITests" */;
+			buildPhases = (
+				EAE7980F2965A6FD0014AF4D /* Sources */,
+				EAE798102965A6FD0014AF4D /* Frameworks */,
+				EAE798112965A6FD0014AF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE798152965A6FD0014AF4D /* PBXTargetDependency */,
+			);
+			name = FinanceHubUITests;
+			productName = FinanceHubUITests;
+			productReference = EAE798132965A6FD0014AF4D /* FinanceHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE797EB2965A6FA0014AF4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EAE797F22965A6FA0014AF4D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EAE798082965A6FD0014AF4D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EAE797F22965A6FA0014AF4D;
+					};
+					EAE798122965A6FD0014AF4D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EAE797F22965A6FA0014AF4D;
+					};
+				};
+			};
+			buildConfigurationList = EAE797EE2965A6FA0014AF4D /* Build configuration list for PBXProject "FinanceHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE797EA2965A6FA0014AF4D;
+			productRefGroup = EAE797F42965A6FA0014AF4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE797F22965A6FA0014AF4D /* FinanceHub */,
+				EAE798082965A6FD0014AF4D /* FinanceHubTests */,
+				EAE798122965A6FD0014AF4D /* FinanceHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE797F12965A6FA0014AF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA839F982969E1D50002666B /* button00ElementScrollTree@3x.png in Resources */,
+				EA6A101B2966FB7400C3AA10 /* BannerView.xib in Resources */,
+				EA6A0FFD2965E6E400C3AA10 /* PaymentMethodView.xib in Resources */,
+				EA6A0FE42965D9A200C3AA10 /* avatar@3x.png in Resources */,
+				EA839FA22969E2500002666B /* FavoriteCollectionViewCell.xib in Resources */,
+				EA6A10302966FDCF00C3AA10 /* PanelChildViewController.xib in Resources */,
+				EA6A0FE62965D9D100C3AA10 /* iconBell01Nomal@3x.png in Resources */,
+				EA6F20B129689F01003AA37E /* iconArrowWTailBack@3x.png in Resources */,
+				EA6A10112965FBAC00C3AA10 /* button00ElementScrollEmpty@3x.png in Resources */,
+				EA6A0FF52965E5DB00C3AA10 /* button01Scan@3x.png in Resources */,
+				EA839F932969CBB80002666B /* FavoriteView.xib in Resources */,
+				EA6A100F2965FAE500C3AA10 /* FavoriteEmptyView.xib in Resources */,
+				EAE798032965A6FC0014AF4D /* LaunchScreen.storyboard in Resources */,
+				EA6A0FED2965E16100C3AA10 /* iconEye01On@3x.png in Resources */,
+				EA6A0FDD2965D5BB00C3AA10 /* MyAccountTopView.xib in Resources */,
+				EA6A10092965F66400C3AA10 /* MyFavoriteTitleView.xib in Resources */,
+				EA6F20A8296891EF003AA37E /* iconBell02Active@3x.png in Resources */,
+				EA6A0FF72965E61A00C3AA10 /* button00ElementMenuQRcode@3x.png in Resources */,
+				EA839F9A2969E1E70002666B /* button00ElementScrollCreditCard@3x.png in Resources */,
+				EAE798002965A6FC0014AF4D /* Assets.xcassets in Resources */,
+				EA6F20AD296896D6003AA37E /* NotificationViewController.xib in Resources */,
+				EA6A0FE92965DD6F00C3AA10 /* AccountBalanceView.xib in Resources */,
+				EA94BD332965CC7C00BAFD61 /* MyAccountViewController.xib in Resources */,
+				EA6A10012965E7F300C3AA10 /* PaymentMethodCollectionViewCell.xib in Resources */,
+				EA6A101C2966FB7400C3AA10 /* BottomView.xib in Resources */,
+				EA6A0FEF2965E59900C3AA10 /* button00ElementMenuTransfer@3x.png in Resources */,
+				EA6A0FF12965E5AF00C3AA10 /* button00ElementMenuPayment@3x.png in Resources */,
+				EA6A101A2966FB7400C3AA10 /* BannerCollectionViewCell.xib in Resources */,
+				EA839F892969C2360002666B /* BannerEmptyView.xib in Resources */,
+				EA6F20B62968A145003AA37E /* NotificationTableViewCell.xib in Resources */,
+				EA839F8129691A170002666B /* iconEye02Off@3x.png in Resources */,
+				EA839F8F2969CB2C0002666B /* icTabbarServic@3x.png in Resources */,
+				EA6A0FF32965E5C400C3AA10 /* button00ElementMenuUtility@3x.png in Resources */,
+				EA6A103B2966FE0400C3AA10 /* icTabbarLocationActive@3x.png in Resources */,
+				EA6A100B2965F76600C3AA10 /* iconArrow01Next@3x.png in Resources */,
+				EA6A103C2966FE0400C3AA10 /* icTabbarHomeActive@3x.png in Resources */,
+				EAE797FE2965A6FA0014AF4D /* Main.storyboard in Resources */,
+				EA839F962969E1BB0002666B /* button00ElementScrollMobile@3x.png in Resources */,
+				EA839F9C2969E1F90002666B /* button00ElementScrollBuilding@3x.png in Resources */,
+				EA6A0FF92965E62C00C3AA10 /* button00ElementMenuTopUp@3x.png in Resources */,
+				EA6A103D2966FE0400C3AA10 /* icTabbarAccountDefault@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE798072965A6FD0014AF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE798112965A6FD0014AF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE797EF2965A6FA0014AF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6A101E2966FB7400C3AA10 /* BannerView.swift in Sources */,
+				EA6A0FDF2965D60000C3AA10 /* MyAccountTopView.swift in Sources */,
+				EA6A0FEB2965DDC200C3AA10 /* AccountBalanceView.swift in Sources */,
+				EA6A101F2966FB7400C3AA10 /* BannerCollectionViewCell.swift in Sources */,
+				EA839FA12969E2500002666B /* FavoriteCollectionViewCell.swift in Sources */,
+				EA839F8329696BBA0002666B /* Extension_String.swift in Sources */,
+				EA6F20B82968A612003AA37E /* NotificationTableViewDataSource.swift in Sources */,
+				EAE797FB2965A6FA0014AF4D /* ViewController.swift in Sources */,
+				EA6F20A429688EB9003AA37E /* BaseViewController.swift in Sources */,
+				EA6F20B52968A145003AA37E /* NotificationTableViewCell.swift in Sources */,
+				EA839F85296986230002666B /* ImageManager.swift in Sources */,
+				EA6F209829673183003AA37E /* BaseViewModel.swift in Sources */,
+				EA6A10002965E7F300C3AA10 /* PaymentMethodCollectionViewCell.swift in Sources */,
+				EA6A10252966FBFD00C3AA10 /* GradientView.swift in Sources */,
+				EA6F209E296871F2003AA37E /* Account.swift in Sources */,
+				EA6F209629673138003AA37E /* MyAccountViewModel.swift in Sources */,
+				EA6A100D2965FACB00C3AA10 /* FavoriteEmptyView.swift in Sources */,
+				EA6A10342966FDCF00C3AA10 /* PanelChildViewController.swift in Sources */,
+				EA6A101D2966FB7400C3AA10 /* BottomView.swift in Sources */,
+				EAE797F72965A6FA0014AF4D /* AppDelegate.swift in Sources */,
+				EA6F20A029687371003AA37E /* Favorite.swift in Sources */,
+				EA6A0FFB2965E6C100C3AA10 /* PaymentMethodView.swift in Sources */,
+				EA6F20A229688280003AA37E /* Banner.swift in Sources */,
+				EA94BD322965CC7C00BAFD61 /* MyAccountViewController.swift in Sources */,
+				EA839FA4296AE1D70002666B /* ShimmerView.swift in Sources */,
+				EA839F912969CB980002666B /* FavoriteView.swift in Sources */,
+				EAE797F92965A6FA0014AF4D /* SceneDelegate.swift in Sources */,
+				EA839F872969C1F40002666B /* BannerEmptyView.swift in Sources */,
+				EA6A0FD92965D4CB00C3AA10 /* NibOwnerLoadable.swift in Sources */,
+				EA6A10052965E8C000C3AA10 /* PaymentMethod.swift in Sources */,
+				EA6A103F2967026500C3AA10 /* Style.swift in Sources */,
+				EA6F208F29672E34003AA37E /* APIManager.swift in Sources */,
+				EA6F209C29687013003AA37E /* Notification.swift in Sources */,
+				EA6A10072965F63800C3AA10 /* MyFavoriteTitleView.swift in Sources */,
+				EA6F20AC296896D6003AA37E /* NotificationViewController.swift in Sources */,
+				EA6F208D29672B75003AA37E /* APIInfo .swift in Sources */,
+				EA6F209329673058003AA37E /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE798052965A6FD0014AF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE7980E2965A6FD0014AF4D /* FinanceHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE7980F2965A6FD0014AF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE7981A2965A6FD0014AF4D /* FinanceHubUITestsLaunchTests.swift in Sources */,
+				EAE798182965A6FD0014AF4D /* FinanceHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAE7980B2965A6FD0014AF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE797F22965A6FA0014AF4D /* FinanceHub */;
+			targetProxy = EAE7980A2965A6FD0014AF4D /* PBXContainerItemProxy */;
+		};
+		EAE798152965A6FD0014AF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE797F22965A6FA0014AF4D /* FinanceHub */;
+			targetProxy = EAE798142965A6FD0014AF4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAE797FC2965A6FA0014AF4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE797FD2965A6FA0014AF4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE798012965A6FC0014AF4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE798022965A6FC0014AF4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE7981B2965A6FD0014AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE7981C2965A6FD0014AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE7981E2965A6FD0014AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY9R5V8MN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceHub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acube.FinanceHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAE7981F2965A6FD0014AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY9R5V8MN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceHub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acube.FinanceHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAE798212965A6FD0014AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY9R5V8MN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acube.FinanceHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinanceHub";
+			};
+			name = Debug;
+		};
+		EAE798222965A6FD0014AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY9R5V8MN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acube.FinanceHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinanceHub";
+			};
+			name = Release;
+		};
+		EAE798242965A6FD0014AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY9R5V8MN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acube.FinanceHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinanceHub;
+			};
+			name = Debug;
+		};
+		EAE798252965A6FD0014AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY9R5V8MN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acube.FinanceHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinanceHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE797EE2965A6FA0014AF4D /* Build configuration list for PBXProject "FinanceHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE7981B2965A6FD0014AF4D /* Debug */,
+				EAE7981C2965A6FD0014AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE7981D2965A6FD0014AF4D /* Build configuration list for PBXNativeTarget "FinanceHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE7981E2965A6FD0014AF4D /* Debug */,
+				EAE7981F2965A6FD0014AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE798202965A6FD0014AF4D /* Build configuration list for PBXNativeTarget "FinanceHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE798212965A6FD0014AF4D /* Debug */,
+				EAE798222965A6FD0014AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE798232965A6FD0014AF4D /* Build configuration list for PBXNativeTarget "FinanceHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE798242965A6FD0014AF4D /* Debug */,
+				EAE798252965A6FD0014AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE797EB2965A6FA0014AF4D /* Project object */;
+}

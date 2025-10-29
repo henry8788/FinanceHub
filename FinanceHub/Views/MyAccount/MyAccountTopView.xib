@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyAccountTopView" customModule="FinanceHub">
+            <connections>
+                <outlet property="bellButton" destination="BSZ-yx-8gR" id="hvN-br-URs"/>
+                <outlet property="bellImageView" destination="hzU-9S-OMn" id="KvK-eJ-H4V"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="535" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjP-vj-6NB">
+                    <rect key="frame" x="0.0" y="0.0" width="535" height="48"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconBell01Nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="hzU-9S-OMn">
+                            <rect key="frame" x="487" y="12" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="pEW-64-ckt"/>
+                                <constraint firstAttribute="width" constant="24" id="qbP-QW-PsL"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSZ-yx-8gR">
+                            <rect key="frame" x="487" y="6.6666666666666679" width="24" height="35"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                            <connections>
+                                <action selector="onBellBtnClick:" destination="-1" eventType="touchUpInside" id="FA9-cY-rjA"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="icL-B4-6Pf">
+                            <rect key="frame" x="24" y="4" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="1er-Mp-JBw"/>
+                                <constraint firstAttribute="height" constant="40" id="y73-Gv-Y6R"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="BSZ-yx-8gR" firstAttribute="leading" secondItem="hzU-9S-OMn" secondAttribute="leading" id="AkU-of-0cV"/>
+                        <constraint firstItem="BSZ-yx-8gR" firstAttribute="height" secondItem="hzU-9S-OMn" secondAttribute="height" multiplier="1.45833" id="Kro-IC-LGd"/>
+                        <constraint firstItem="BSZ-yx-8gR" firstAttribute="width" secondItem="hzU-9S-OMn" secondAttribute="width" id="MGx-4A-KZS"/>
+                        <constraint firstItem="hzU-9S-OMn" firstAttribute="centerY" secondItem="sjP-vj-6NB" secondAttribute="centerY" id="WaK-cY-Wwt"/>
+                        <constraint firstItem="BSZ-yx-8gR" firstAttribute="centerY" secondItem="icL-B4-6Pf" secondAttribute="centerY" id="X9x-e2-QD1"/>
+                        <constraint firstItem="icL-B4-6Pf" firstAttribute="leading" secondItem="sjP-vj-6NB" secondAttribute="leading" constant="24" id="ca9-sv-YhX"/>
+                        <constraint firstItem="icL-B4-6Pf" firstAttribute="centerY" secondItem="sjP-vj-6NB" secondAttribute="centerY" id="hmh-CN-5Ce"/>
+                        <constraint firstAttribute="trailing" secondItem="hzU-9S-OMn" secondAttribute="trailing" constant="24" id="pXY-9O-fuv"/>
+                        <constraint firstAttribute="height" constant="48" id="y3i-Ip-XMf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="sjP-vj-6NB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5q3-eu-7LJ"/>
+                <constraint firstItem="sjP-vj-6NB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="h5D-C7-zVF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sjP-vj-6NB" secondAttribute="trailing" id="pN0-he-wi4"/>
+                <constraint firstAttribute="bottom" secondItem="sjP-vj-6NB" secondAttribute="bottom" id="qgv-qw-mg3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.15942028985509" y="-322.01086956521743"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar.png" width="42" height="42"/>
+        <image name="iconBell01Nomal.png" width="24" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

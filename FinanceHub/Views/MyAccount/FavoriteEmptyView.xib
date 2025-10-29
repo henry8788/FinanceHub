@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteEmptyView" customModule="FinanceHub"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ima-I5-VeH">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button00ElementScrollEmpty.png" translatesAutoresizingMaskIntoConstraints="NO" id="DOP-uD-ChF">
+                            <rect key="frame" x="36" y="0.0" width="56" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="UUe-4u-UGd"/>
+                                <constraint firstAttribute="height" constant="56" id="fsH-Xc-aWO"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- - -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Luq-CM-0Df">
+                            <rect key="frame" x="52" y="56" width="24" height="32"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.43529411764705883" green="0.43529411764705883" blue="0.43529411764705883" alpha="0.69803921568627447" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can add a favorite through the transfer or payment function." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fge-4k-hFS">
+                            <rect key="frame" x="104" y="15.999999999999996" width="286" height="33.666666666666657"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.43529411759999997" green="0.43529411759999997" blue="0.43529411759999997" alpha="0.69803921570000005" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="DOP-uD-ChF" firstAttribute="top" secondItem="ima-I5-VeH" secondAttribute="top" id="3IO-Zz-1UO"/>
+                        <constraint firstItem="Luq-CM-0Df" firstAttribute="top" secondItem="DOP-uD-ChF" secondAttribute="bottom" id="7qG-bK-1xr"/>
+                        <constraint firstItem="DOP-uD-ChF" firstAttribute="leading" secondItem="ima-I5-VeH" secondAttribute="leading" constant="36" id="86q-Cq-Yos"/>
+                        <constraint firstItem="Luq-CM-0Df" firstAttribute="centerX" secondItem="DOP-uD-ChF" secondAttribute="centerX" id="Tqf-Fe-qS3"/>
+                        <constraint firstAttribute="height" constant="88" id="aLW-hB-ezG"/>
+                        <constraint firstItem="fge-4k-hFS" firstAttribute="leading" secondItem="DOP-uD-ChF" secondAttribute="trailing" constant="12" id="bnJ-np-d5w"/>
+                        <constraint firstAttribute="bottom" secondItem="Luq-CM-0Df" secondAttribute="bottom" id="kLe-xT-CbJ"/>
+                        <constraint firstItem="fge-4k-hFS" firstAttribute="top" secondItem="ima-I5-VeH" secondAttribute="top" constant="16" id="n06-dM-ivU"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fge-4k-hFS" secondAttribute="bottom" constant="9" id="tqy-IB-Du4"/>
+                        <constraint firstAttribute="trailing" secondItem="fge-4k-hFS" secondAttribute="trailing" constant="24" id="zLk-bg-5RA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ima-I5-VeH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="JU8-ij-qtE"/>
+                <constraint firstAttribute="bottom" secondItem="ima-I5-VeH" secondAttribute="bottom" id="T0K-oc-CGh"/>
+                <constraint firstItem="ima-I5-VeH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mbd-IN-l7a"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ima-I5-VeH" secondAttribute="trailing" id="vP3-Bx-EAe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="123" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button00ElementScrollEmpty.png" width="56" height="56"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
